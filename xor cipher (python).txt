@@ -1,0 +1,29 @@
+Input A | Input B | Output
+--------|---------|--------
+OFF     | OFF     | OFF  (same = off)
+OFF     | ON      | ON   (different = on)
+ON      | OFF     | ON   (different = on)
+ON      | ON      | OFF  (same = off)
+
+Secret message: "A" (in binary: 01000001)
+Secret key:     "K" (in binary: 01001011)
+                ↓ XOR
+Encrypted:      (00001010) ← gibberish!
+
+Take encrypted: (00001010)
+Same key:       (01001011)
+                ↓ XOR again
+Decrypted:      (01000001) ← "A" is back!
+
+# Think of letters as numbers (A=65, B=66, etc.)
+message = "H"  # 72 in numbers
+key = "S"      # 83 in numbers
+
+# Encrypt: 72 XOR 83 = 27 (some weird number)
+# Decrypt: 27 XOR 83 = 72 (back to "H"!)
+
+# It's like a secret handshake - same moves both ways!
+
+It's super fast and simple for computers but If they guess part of your message, they can crack it
+
+result? xor is outdated
