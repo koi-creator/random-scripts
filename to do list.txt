@@ -1,0 +1,11 @@
+coding-sandbox/
+├── encryption/
+│   ├── caesar-cipher.py
+│   ├── base64-experiment.py
+│   ├── simple-xor.py
+│   └── README.md
+├── hashing/
+│   ├── md5-demo.py
+│   └── sha256-demo.py
+└── utils/
+    └── text-helpers.py
