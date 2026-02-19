@@ -1,1 +1,28 @@
 What caesar have to do with it? idfk.
+
+[process is pretty easy to crack 25 encryption key]
+
+Normal alphabet: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
+                ↓ ↓ ↓ ↓ ↓
+Shift by 3:     D E F G H I J K L M N O P Q R S T U V W X Y Z A B C
+
+[shift by 3]
+
+"HELLO" becomes "KHOOR"
+Why?
+H → K (H+I+J+K = 3 steps forward)
+E → H (E+F+G+H = 3 steps forward)
+L → O (L+M+N+O = 3 steps forward)
+L → O
+O → R
+
+To decode:
+
+"KHOOR" becomes "HELLO"
+K → H (K-J-I-H = 3 steps backward)
+H → E (H-G-F-E = 3 steps backward)
+O → L
+O → L
+R → O
+
+if i got thousand letter that gonna take few day to decode
