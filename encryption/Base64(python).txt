@@ -1,0 +1,19 @@
+Normal text: "Hello" 
+Morse code:  ".... . .-.. .-.. ---" 
+
+Original: "Hello" 
+          ↓
+Base64:   "SGVsbG8="
+          ↓
+Email system: "Yay! Just text! 😊"
+          ↓
+Your friend: Converts back to "Hello"
+
+[Base64 Look Like:]
+
+SGVsbG8gV29ybGQ= ("Hello World")
+dGVzdDEyMw== ("test123")
+Data URLs in websites: data:image/png;base64,iVBORw0KG...
+
+Is It Encryption?  nope
+  Encryption needs a key
